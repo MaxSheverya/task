@@ -1,0 +1,25 @@
+.text {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    unicode-bidi: isolate;
+}
+.btn {
+    font-size: 24px;
+    background-color: yellow;
+    padding: 10px 20px;
+    margin: 40px;
+    
+}
+.text:hover,
+.text:focus {
+    text-shadow: 8px 3px 5px rgb(109, 2, 180);
+}
+.btn:hover,
+.btn:focus {
+    box-shadow: 5px 5px 10px #222222;
+    background-color: rgb(255, 136, 0);
+}
